@@ -180,14 +180,12 @@ class App extends Component {
         </div>
 
         <div className="formParent">
-          <div className="container__item">
-            <form onSubmit={this.handleFormSubmit} className="form">
+            <form onSubmit={this.handleFormSubmit} className="container__item">
               <input type="text" value={this.state.playListName} onChange={this.handleChange} className="form__field" placeholder="Playlist Name (Ex: WoosyDoosy)" />
               <div className="submitButton">
                 <button type="submit" value="Submit" className="btn btn--primary btn--inside uppercase">CREATE PLAYLIST</button>
               </div>
             </form>
-          </div>
         </div>
 
       </div>
@@ -216,7 +214,7 @@ class App extends Component {
               <div className="LoginInside">
                 <p className="LoginInDes">The fastest way to create a playlist of your most recently liked songs.</p>
                 <p className="LoginInP">To get started, please log in with your Spotify account.</p>
-                <a href="http://sharify-backend.herokuapp.com/login"> <button className="LoginButton">LOG IN</button></a>
+                <a href="http://sharify-me.herokuapp.com/login"> <button className="LoginButton">LOG IN</button></a>
               </div>
 
               <div className="footer">
