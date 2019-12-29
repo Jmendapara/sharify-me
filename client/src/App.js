@@ -213,7 +213,7 @@ class App extends Component {
               <div className="LoginInside">
                 <p className="LoginInDes">The fastest way to create a playlist of your most recently liked songs.</p>
                 <p className="LoginInP">To get started, please log in with your Spotify account.</p>
-                <a href="http://sharify-me.herokuapp.com/login"> <button className="LoginButton">LOG IN</button></a>
+                <a href="http://sharify-backend.herokuapp.com/login"> <button className="LoginButton">LOG IN</button></a>
               </div>
 
               <div className="footer">
