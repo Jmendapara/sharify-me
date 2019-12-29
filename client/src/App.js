@@ -158,7 +158,7 @@ class App extends Component {
           <div>
             <div className="refresh">
               <button id="refreshB" onClick={() => this.handleSubmit()}>
-                Refresh Songs
+                Reset List
               </button>
             </div>
           </div>
