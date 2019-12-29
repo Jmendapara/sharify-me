@@ -133,6 +133,7 @@
 
 .LoginInP{
 
+  justify-content: center;
   display: flex;
   width: 80%;
   letter-spacing: 1px;
@@ -144,6 +145,7 @@
 .LoginInDes{
 
   display: flex;
+  justify-content: center;
   width: 80%;
   letter-spacing: 1px;
   font-size: 30px;
