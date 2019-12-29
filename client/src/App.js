@@ -83,7 +83,6 @@ class App extends Component {
       .then((response) => {
         this.setState({ userId: response.id });
         console.log(this.state);
-
       })
 
   }
